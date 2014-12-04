@@ -1,0 +1,316 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/tj/lasertag', [ 'express', 'less', 'ejs' ] ]
+7 info preinstall application-name@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'less@>= 0.0.1', null ]
+10 verbose cache add name=undefined spec="less@>= 0.0.1" args=["less@>= 0.0.1",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'less@%3E=%200.0.1',
+11 verbose parsed url   path: 'less@%3E=%200.0.1',
+11 verbose parsed url   href: 'less@%3E=%200.0.1' }
+12 verbose cache add [ 'ejs@>= 0.0.1', null ]
+13 verbose cache add name=undefined spec="ejs@>= 0.0.1" args=["ejs@>= 0.0.1",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'ejs@%3E=%200.0.1',
+14 verbose parsed url   path: 'ejs@%3E=%200.0.1',
+14 verbose parsed url   href: 'ejs@%3E=%200.0.1' }
+15 verbose cache add name="less" spec=">= 0.0.1" args=["less",">= 0.0.1"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '%3E=%200.0.1',
+16 verbose parsed url   path: '%3E=%200.0.1',
+16 verbose parsed url   href: '%3E=%200.0.1' }
+17 verbose addNamed [ 'less', '>= 0.0.1' ]
+18 verbose addNamed [ null, '>=0.0.1' ]
+19 verbose cache add name="ejs" spec=">= 0.0.1" args=["ejs",">= 0.0.1"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '%3E=%200.0.1',
+20 verbose parsed url   path: '%3E=%200.0.1',
+20 verbose parsed url   href: '%3E=%200.0.1' }
+21 verbose addNamed [ 'ejs', '>= 0.0.1' ]
+22 verbose addNamed [ null, '>=0.0.1' ]
+23 verbose cache add [ 'express@2.5.8', null ]
+24 verbose cache add name=undefined spec="express@2.5.8" args=["express@2.5.8",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'express@2.5.8',
+25 verbose parsed url   path: 'express@2.5.8',
+25 verbose parsed url   href: 'express@2.5.8' }
+26 silly lockFile 8ed7e0e9-less-0-0-1 less@>= 0.0.1
+27 verbose lock less@>= 0.0.1 /home/tj/.npm/8ed7e0e9-less-0-0-1.lock
+28 silly lockFile 7497a8f0-ejs-0-0-1 ejs@>= 0.0.1
+29 verbose lock ejs@>= 0.0.1 /home/tj/.npm/7497a8f0-ejs-0-0-1.lock
+30 verbose cache add name="express" spec="2.5.8" args=["express","2.5.8"]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: '2.5.8',
+31 verbose parsed url   path: '2.5.8',
+31 verbose parsed url   href: '2.5.8' }
+32 verbose addNamed [ 'express', '2.5.8' ]
+33 verbose addNamed [ '2.5.8', '2.5.8' ]
+34 silly lockFile 70a1a393-express-2-5-8 express@2.5.8
+35 verbose lock express@2.5.8 /home/tj/.npm/70a1a393-express-2-5-8.lock
+36 silly addNameRange { name: 'less', range: '>=0.0.1', hasData: false }
+37 silly addNameRange { name: 'ejs', range: '>=0.0.1', hasData: false }
+38 verbose request where is /ejs
+39 verbose request registry https://registry.npmjs.org/
+40 verbose request id 067b522475bffb87
+41 verbose url raw /ejs
+42 verbose url resolving [ 'https://registry.npmjs.org/', './ejs' ]
+43 verbose url resolved https://registry.npmjs.org/ejs
+44 verbose request where is https://registry.npmjs.org/ejs
+45 info trying registry request attempt 1 at 16:02:51
+46 verbose etag "DFS9PA0D97GJNWG4SMGBGXXH0"
+47 http GET https://registry.npmjs.org/ejs
+48 verbose request where is /less
+49 verbose request registry https://registry.npmjs.org/
+50 verbose url raw /less
+51 verbose url resolving [ 'https://registry.npmjs.org/', './less' ]
+52 verbose url resolved https://registry.npmjs.org/less
+53 verbose request where is https://registry.npmjs.org/less
+54 info trying registry request attempt 1 at 16:02:51
+55 verbose etag "8ZCJB0C4ETPMUMALA5GK30N41"
+56 http GET https://registry.npmjs.org/less
+57 verbose request where is /express
+58 verbose request registry https://registry.npmjs.org/
+59 verbose url raw /express
+60 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+61 verbose url resolved https://registry.npmjs.org/express
+62 verbose request where is https://registry.npmjs.org/express
+63 info trying registry request attempt 1 at 16:02:51
+64 verbose etag "2QIAQB0L4KGABW2QFR1D6UDMA"
+65 http GET https://registry.npmjs.org/express
+66 http 304 https://registry.npmjs.org/ejs
+67 silly registry.get cb [ 304,
+67 silly registry.get   { date: 'Tue, 02 Dec 2014 00:02:51 GMT',
+67 silly registry.get     server: 'Apache',
+67 silly registry.get     via: '1.1 varnish',
+67 silly registry.get     'last-modified': 'Tue, 02 Dec 2014 00:02:13 GMT',
+67 silly registry.get     'cache-control': 'max-age=60',
+67 silly registry.get     etag: '"DFS9PA0D97GJNWG4SMGBGXXH0"',
+67 silly registry.get     age: '38',
+67 silly registry.get     'x-served-by': 'cache-sjc3129-SJC',
+67 silly registry.get     'x-cache': 'HIT',
+67 silly registry.get     'x-cache-hits': '3',
+67 silly registry.get     'x-timer': 'S1417478571.811606,VS0,VE0',
+67 silly registry.get     vary: 'Accept',
+67 silly registry.get     'content-length': '0',
+67 silly registry.get     'keep-alive': 'timeout=10, max=50',
+67 silly registry.get     connection: 'Keep-Alive' } ]
+68 verbose etag https://registry.npmjs.org/ejs from cache
+69 silly addNameRange number 2 { name: 'ejs', range: '>=0.0.1', hasData: true }
+70 silly addNameRange versions [ 'ejs',
+70 silly addNameRange   [ '0.0.1',
+70 silly addNameRange     '0.0.2',
+70 silly addNameRange     '0.0.3',
+70 silly addNameRange     '0.0.4',
+70 silly addNameRange     '0.1.0',
+70 silly addNameRange     '0.2.0',
+70 silly addNameRange     '0.2.1',
+70 silly addNameRange     '0.3.0',
+70 silly addNameRange     '0.3.1',
+70 silly addNameRange     '0.4.0',
+70 silly addNameRange     '0.4.1',
+70 silly addNameRange     '0.4.2',
+70 silly addNameRange     '0.4.3',
+70 silly addNameRange     '0.5.0',
+70 silly addNameRange     '0.6.0',
+70 silly addNameRange     '0.6.1',
+70 silly addNameRange     '0.7.0',
+70 silly addNameRange     '0.7.1',
+70 silly addNameRange     '0.7.2',
+70 silly addNameRange     '0.8.0',
+70 silly addNameRange     '0.8.1',
+70 silly addNameRange     '0.8.2',
+70 silly addNameRange     '0.8.3',
+70 silly addNameRange     '0.8.4',
+70 silly addNameRange     '0.8.5',
+70 silly addNameRange     '0.8.6',
+70 silly addNameRange     '0.8.8',
+70 silly addNameRange     '1.0.0' ] ]
+71 verbose addNamed [ 'ejs', '1.0.0' ]
+72 verbose addNamed [ '1.0.0', '1.0.0' ]
+73 silly lockFile 3b9d58f7-ejs-1-0-0 ejs@1.0.0
+74 verbose lock ejs@1.0.0 /home/tj/.npm/3b9d58f7-ejs-1-0-0.lock
+75 silly lockFile 2583a321-stry-npmjs-org-ejs-ejs-1-0-0-tgz https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz
+76 verbose lock https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz /home/tj/.npm/2583a321-stry-npmjs-org-ejs-ejs-1-0-0-tgz.lock
+77 verbose addRemoteTarball [ 'https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz',
+77 verbose addRemoteTarball   'c9c60a48a46ee452fb32a71c317b95e5aa1fcb3d' ]
+78 info retry fetch attempt 1 at 16:02:53
+79 verbose fetch to= /tmp/npm-25622-L1RPf5bc/registry.npmjs.org/ejs/-/ejs-1.0.0.tgz
+80 http GET https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz
+81 http 304 https://registry.npmjs.org/less
+82 silly registry.get cb [ 304,
+82 silly registry.get   { date: 'Tue, 02 Dec 2014 00:02:51 GMT',
+82 silly registry.get     server: 'Apache',
+82 silly registry.get     via: '1.1 varnish',
+82 silly registry.get     'last-modified': 'Mon, 01 Dec 2014 23:54:21 GMT',
+82 silly registry.get     'cache-control': 'max-age=60',
+82 silly registry.get     etag: '"8ZCJB0C4ETPMUMALA5GK30N41"',
+82 silly registry.get     age: '9',
+82 silly registry.get     'x-served-by': 'cache-sjc3135-SJC',
+82 silly registry.get     'x-cache': 'HIT',
+82 silly registry.get     'x-cache-hits': '44',
+82 silly registry.get     'x-timer': 'S1417478571.828123,VS0,VE0',
+82 silly registry.get     vary: 'Accept',
+82 silly registry.get     'content-length': '0',
+82 silly registry.get     'keep-alive': 'timeout=10, max=50',
+82 silly registry.get     connection: 'Keep-Alive' } ]
+83 verbose etag https://registry.npmjs.org/less from cache
+84 silly addNameRange number 2 { name: 'less', range: '>=0.0.1', hasData: true }
+85 silly addNameRange versions [ 'less',
+85 silly addNameRange   [ '1.0.10',
+85 silly addNameRange     '1.0.11',
+85 silly addNameRange     '1.0.14',
+85 silly addNameRange     '1.0.18',
+85 silly addNameRange     '1.0.19',
+85 silly addNameRange     '1.0.21',
+85 silly addNameRange     '1.0.32',
+85 silly addNameRange     '1.0.36',
+85 silly addNameRange     '1.0.5',
+85 silly addNameRange     '1.0.40',
+85 silly addNameRange     '1.0.41',
+85 silly addNameRange     '1.0.44',
+85 silly addNameRange     '1.1.0',
+85 silly addNameRange     '1.1.1',
+85 silly addNameRange     '1.1.2',
+85 silly addNameRange     '1.1.4',
+85 silly addNameRange     '1.1.5',
+85 silly addNameRange     '1.1.6',
+85 silly addNameRange     '1.2.0',
+85 silly addNameRange     '1.2.1',
+85 silly addNameRange     '1.2.2',
+85 silly addNameRange     '1.3.0',
+85 silly addNameRange     '1.3.1',
+85 silly addNameRange     '1.3.2',
+85 silly addNameRange     '1.3.3',
+85 silly addNameRange     '1.4.0-b1',
+85 silly addNameRange     '1.4.0-b2',
+85 silly addNameRange     '1.4.0-b3',
+85 silly addNameRange     '1.4.0-b4',
+85 silly addNameRange     '1.4.0',
+85 silly addNameRange     '1.4.1',
+85 silly addNameRange     '1.4.2',
+85 silly addNameRange     '1.5.0-b1',
+85 silly addNameRange     '1.5.0-b2',
+85 silly addNameRange     '1.5.0-b3',
+85 silly addNameRange     '1.5.0-b4',
+85 silly addNameRange     '1.5.0',
+85 silly addNameRange     '1.5.1',
+85 silly addNameRange     '1.6.0',
+85 silly addNameRange     '1.6.1',
+85 silly addNameRange     '1.6.2',
+85 silly addNameRange     '1.6.3',
+85 silly addNameRange     '1.7.0',
+85 silly addNameRange     '1.7.1',
+85 silly addNameRange     '1.7.3',
+85 silly addNameRange     '1.7.4',
+85 silly addNameRange     '1.7.5',
+85 silly addNameRange     '2.0.0-b1',
+85 silly addNameRange     '2.0.0-b2',
+85 silly addNameRange     '2.0.0-b3',
+85 silly addNameRange     '2.0.0',
+85 silly addNameRange     '2.1.0',
+85 silly addNameRange     '2.1.1' ] ]
+86 verbose addNamed [ 'less', '2.1.1' ]
+87 verbose addNamed [ '2.1.1', '2.1.1' ]
+88 silly lockFile 752eb025-less-2-1-1 less@2.1.1
+89 verbose lock less@2.1.1 /home/tj/.npm/752eb025-less-2-1-1.lock
+90 silly lockFile 752eb025-less-2-1-1 less@2.1.1
+91 silly lockFile 752eb025-less-2-1-1 less@2.1.1
+92 silly lockFile 8ed7e0e9-less-0-0-1 less@>= 0.0.1
+93 silly lockFile 8ed7e0e9-less-0-0-1 less@>= 0.0.1
+94 http 200 https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz
+95 silly lockFile 2583a321-stry-npmjs-org-ejs-ejs-1-0-0-tgz https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz
+96 silly lockFile 2583a321-stry-npmjs-org-ejs-ejs-1-0-0-tgz https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz
+97 silly lockFile 3b9d58f7-ejs-1-0-0 ejs@1.0.0
+98 silly lockFile 3b9d58f7-ejs-1-0-0 ejs@1.0.0
+99 silly lockFile 7497a8f0-ejs-0-0-1 ejs@>= 0.0.1
+100 silly lockFile 7497a8f0-ejs-0-0-1 ejs@>= 0.0.1
+101 http 304 https://registry.npmjs.org/express
+102 silly registry.get cb [ 304,
+102 silly registry.get   { date: 'Tue, 02 Dec 2014 00:02:55 GMT',
+102 silly registry.get     server: 'Apache',
+102 silly registry.get     via: '1.1 varnish',
+102 silly registry.get     'last-modified': 'Tue, 02 Dec 2014 00:02:55 GMT',
+102 silly registry.get     'cache-control': 'max-age=60',
+102 silly registry.get     etag: '"2QIAQB0L4KGABW2QFR1D6UDMA"',
+102 silly registry.get     age: '11',
+102 silly registry.get     'x-served-by': 'cache-lax1431-LAX',
+102 silly registry.get     'x-cache': 'HIT',
+102 silly registry.get     'x-cache-hits': '1',
+102 silly registry.get     'x-timer': 'S1417478575.209337,VS0,VE1',
+102 silly registry.get     vary: 'Accept',
+102 silly registry.get     'content-length': '0',
+102 silly registry.get     'keep-alive': 'timeout=10, max=50',
+102 silly registry.get     connection: 'Keep-Alive' } ]
+103 verbose etag https://registry.npmjs.org/express from cache
+104 silly lockFile 70a1a393-express-2-5-8 express@2.5.8
+105 silly lockFile 70a1a393-express-2-5-8 express@2.5.8
+106 error Error: EACCES, mkdir '/home/tj/.npm/ejs/1.0.0'
+106 error  { [Error: EACCES, mkdir '/home/tj/.npm/ejs/1.0.0']
+106 error   errno: 3,
+106 error   code: 'EACCES',
+106 error   path: '/home/tj/.npm/ejs/1.0.0',
+106 error   parent: 'application-name' }
+107 error Please try running this command again as root/Administrator.
+108 error System Linux 3.13.0-39-generic
+109 error command "/usr/bin/node" "/usr/bin/npm" "install"
+110 error cwd /home/tj/lasertag
+111 error node -v v0.10.33
+112 error npm -v 1.4.28
+113 error path /home/tj/.npm/ejs/1.0.0
+114 error code EACCES
+115 error errno 3
+116 error stack Error: EACCES, mkdir '/home/tj/.npm/ejs/1.0.0'
+117 verbose exit [ 3, true ]

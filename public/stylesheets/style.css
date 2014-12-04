@@ -1,0 +1,123 @@
+body{
+	margin: 0px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.content{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.content.no-margin{
+	width: initial;
+	margin: 0px;
+}
+
+.scoreboard{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(http://hdwallpaperia.com/wp-content/uploads/2014/01/Desert-And-Sunset-Sunrise-Wallpaper.jpg);
+	background-size: cover;
+}
+
+/*.teams{
+	display: table-cell;
+	margin: 0 auto;
+}*/
+
+.teams{
+	height: 100%;
+	width: 80%;
+	float: left;
+}
+
+.sidebar{
+	height: 100%;
+	width: 20%;
+	float: right;
+	background: rgba(0,0,0,0.5);
+}
+
+.teams:before{
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.teams-inner{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.centered-block-outer { 
+	overflow: hidden;
+	position: relative;/* ie7 needs position:relative here*/
+}
+
+.centered-block-middle {
+	float: left;
+	position:relative;
+	left:50%;
+}
+
+.centered-block-inner {
+	position:relative;
+	left:-50%;
+}
+
+.team-section{
+	display: inline-block;
+	width: 400px;
+	margin: 0 0;
+	color: white;
+	margin: 5px;
+	background: rgba(0,0,0,0.5);
+	vertical-align: top;
+	border-radius: 5px;
+}
+
+.team-section[data-color-id="0"]{
+	border: 2px solid red;
+}
+
+.team-section[data-color-id="1"]{
+	border: 2px solid lightblue;
+}
+
+.team-section[data-color-id="2"]{
+	border: 2px solid magenta;
+}
+
+.team-section h1{
+	margin: 10px;
+	text-align: center;
+}
+
+.team-section li{
+	font-size: 20pt;
+	list-style-type: decimal;
+	padding: 10px;
+	text-align: left;
+}
+
+.team-section[data-color-id="0"] li{
+	border-top: 2px solid red;
+}
+
+.team-section[data-color-id="1"] li{
+	border-top: 2px solid lightblue;
+}
+
+.team-section[data-color-id="2"] li{
+	border-top: 2px solid magenta;
+}
+
+.score{
+	float: right;
+	font-weight: bold;
+}
